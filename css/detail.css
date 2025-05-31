@@ -1,0 +1,66 @@
+
+.nft-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  margin: 60px auto;
+  padding: 0 80px;
+  gap: 40px;
+}
+
+.nft-detail-image img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(88, 166, 255, 0.3);
+}
+
+.nft-detail-info {
+  flex: 1;
+  min-width: 280px;
+  color: #f0f6fc;
+}
+
+.nft-detail-info h1 {
+  font-size: 2rem;
+  color: #58a6ff;
+  margin-bottom: 15px;
+}
+
+.nft-detail-desc {
+  font-size: 1rem;
+  color: #c9d1d9;
+  margin-bottom: 20px;
+}
+
+.nft-detail-meta p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #c9d1d9;
+}
+
+.nft-detail-meta .fiyat {
+  color: #2ea043;
+  font-weight: bold;
+}
+
+.fav-btn {
+  margin-top: 25px;
+  padding: 12px 20px;
+  background-color: #238636;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.fav-btn:hover {
+  background-color: #2ea043;
+}

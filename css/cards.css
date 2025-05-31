@@ -1,0 +1,75 @@
+
+.nft-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 50px 80px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.nft-card {
+  position: relative;
+  background-color: #161b22;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 0 0 transparent;
+}
+
+.nft-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.4);
+}
+
+.nft-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.nft-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(13, 17, 23, 0.95);
+  padding: 15px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.nft-card:hover .nft-info {
+  transform: translateY(0%);
+}
+
+.nft-info h3 {
+  font-size: 1.1rem;
+  margin: 0 0 6px;
+  color: #58a6ff;
+}
+
+.nft-info p {
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin: 0 0 8px;
+}
+
+.nft-info span {
+  font-weight: bold;
+  color: #2ea043;
+}
+
+.kategori-baslik {
+  font-size: 1.6rem;
+  color: #58a6ff;
+  margin: 60px auto 20px;
+  max-width: 1300px;
+  padding: 0 80px;
+  border-left: 4px solid #58a6ff;
+  padding-left: 15px;
+  font-weight: 600;
+}

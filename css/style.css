@@ -1,0 +1,18 @@
+
+@import url('globals.css');
+@import url('navbar.css');
+@import url('hero.css');
+@import url('cards.css');
+@import url('detail.css');
+@import url('footer.css');
+@import url('form.css');
+
+.fav-btn.remove {
+    background-color: #da3633;
+    color: white;
+  }
+  
+  .fav-btn.remove:hover {
+    background-color: #f85149;
+  }
+  
